@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="The_ArithMETic_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The ArithMETic App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJg-4E-CSt">
+                                <rect key="frame" x="20" y="65" width="374" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGn-e4-Hld">
+                                <rect key="frame" x="20" y="242" width="67.333333333333329" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Excercise Time:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhs-Mp-JmL">
+                                <rect key="frame" x="20" y="305" width="148" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Energy Consumed:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9tI-pf-tqc">
+                                <rect key="frame" x="20" y="365" width="146" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="3Eb-Z2-KXB"/>
+                                    <constraint firstAttribute="width" constant="146" id="DfV-i7-03o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time to lose 1 Pound:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8q5-eS-sav">
+                                <rect key="frame" x="20" y="414" width="184" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="brd-zO-lAf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter weight here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9dX-5M-Fkt">
+                                <rect key="frame" x="193" y="241" width="191" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter excercise time" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6dR-U8-DYA">
+                                <rect key="frame" x="193" y="304" width="191" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0 Cal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Qy-v2-raL">
+                                <rect key="frame" x="202" y="365" width="146" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0 minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1e-0X-A68">
+                                <rect key="frame" x="219" y="414" width="146" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="146" id="0ha-yb-PkV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CwH-Xy-BcR">
+                                <rect key="frame" x="92" y="495" width="82" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Calculate"/>
+                                <connections>
+                                    <action selector="convertIt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rmb-2N-HtB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Mo-Ok-gWZ">
+                                <rect key="frame" x="266" y="495" width="47" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="clearEverything:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ha-qf-Ota"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This app calculates calories burned for a particular activity, and exercise time required to lose 1 pound." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gdr-DD-S9S">
+                                <rect key="frame" x="20" y="572" width="374" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZMD-ir-b8v">
+                                <rect key="frame" x="136" y="109" width="248" height="112"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="de2-Bs-ik6">
+                                <rect key="frame" x="20" y="151" width="70.666666666666671" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="wNA-Sj-Plx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lJg-4E-CSt" firstAttribute="trailing" secondItem="gdr-DD-S9S" secondAttribute="trailing" id="1c0-Hm-mdI"/>
+                            <constraint firstItem="9tI-pf-tqc" firstAttribute="baseline" secondItem="1Qy-v2-raL" secondAttribute="baseline" id="3b8-AP-7wd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Qy-v2-raL" secondAttribute="trailing" constant="66" id="7by-0M-i7p"/>
+                            <constraint firstItem="lJg-4E-CSt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9t9-4y-UAI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Mo-Ok-gWZ" secondAttribute="trailing" constant="101" id="DVU-eO-fAv"/>
+                            <constraint firstItem="ZMD-ir-b8v" firstAttribute="top" secondItem="lJg-4E-CSt" secondAttribute="bottom" constant="16" id="F2U-ay-Gc7"/>
+                            <constraint firstItem="CwH-Xy-BcR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="GLB-fc-RTq"/>
+                            <constraint firstItem="nhs-Mp-JmL" firstAttribute="leading" secondItem="9tI-pf-tqc" secondAttribute="leading" id="IO3-Xw-IkG"/>
+                            <constraint firstItem="de2-Bs-ik6" firstAttribute="top" secondItem="lJg-4E-CSt" secondAttribute="bottom" constant="58" id="J9w-sW-PJd"/>
+                            <constraint firstItem="9tI-pf-tqc" firstAttribute="firstBaseline" secondItem="1Qy-v2-raL" secondAttribute="firstBaseline" id="Kz3-EK-fww"/>
+                            <constraint firstItem="VGn-e4-Hld" firstAttribute="leading" secondItem="nhs-Mp-JmL" secondAttribute="leading" id="LyX-5u-678"/>
+                            <constraint firstItem="9dX-5M-Fkt" firstAttribute="leading" secondItem="6dR-U8-DYA" secondAttribute="leading" id="Mug-gs-keV"/>
+                            <constraint firstItem="nhs-Mp-JmL" firstAttribute="top" secondItem="VGn-e4-Hld" secondAttribute="bottom" constant="35" id="NNb-t3-dhn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gdr-DD-S9S" secondAttribute="bottom" constant="240" id="Nrt-8T-IWr"/>
+                            <constraint firstItem="de2-Bs-ik6" firstAttribute="centerY" secondItem="ZMD-ir-b8v" secondAttribute="centerY" id="QgN-iu-NHk"/>
+                            <constraint firstItem="ZMD-ir-b8v" firstAttribute="leading" secondItem="9dX-5M-Fkt" secondAttribute="leading" constant="-45" id="Udg-CX-FNM"/>
+                            <constraint firstItem="lJg-4E-CSt" firstAttribute="leading" secondItem="VGn-e4-Hld" secondAttribute="leading" id="Ujb-1L-l3Z"/>
+                            <constraint firstItem="8q5-eS-sav" firstAttribute="top" secondItem="9tI-pf-tqc" secondAttribute="bottom" constant="21" id="Wo4-H3-gKH"/>
+                            <constraint firstItem="9tI-pf-tqc" firstAttribute="top" secondItem="nhs-Mp-JmL" secondAttribute="bottom" constant="32" id="XJ2-c4-lV5"/>
+                            <constraint firstItem="J1e-0X-A68" firstAttribute="leading" secondItem="8q5-eS-sav" secondAttribute="trailing" constant="15" id="aUr-O3-6br"/>
+                            <constraint firstItem="6dR-U8-DYA" firstAttribute="top" secondItem="9dX-5M-Fkt" secondAttribute="bottom" constant="33" id="deo-8x-FCd"/>
+                            <constraint firstItem="9dX-5M-Fkt" firstAttribute="trailing" secondItem="6dR-U8-DYA" secondAttribute="trailing" id="eh7-OL-IZX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZMD-ir-b8v" secondAttribute="trailing" constant="30" id="f1s-pd-tXm"/>
+                            <constraint firstItem="VGn-e4-Hld" firstAttribute="centerY" secondItem="9dX-5M-Fkt" secondAttribute="centerY" id="fh4-Og-mfo"/>
+                            <constraint firstItem="1Qy-v2-raL" firstAttribute="leading" secondItem="9tI-pf-tqc" secondAttribute="trailing" constant="36" id="gKS-O1-BK9"/>
+                            <constraint firstItem="6dR-U8-DYA" firstAttribute="trailing" secondItem="J1e-0X-A68" secondAttribute="trailing" constant="19" id="gvL-6h-dsQ"/>
+                            <constraint firstItem="lJg-4E-CSt" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="h2A-mj-5q3"/>
+                            <constraint firstItem="8q5-eS-sav" firstAttribute="firstBaseline" secondItem="J1e-0X-A68" secondAttribute="firstBaseline" id="ih3-8F-tRo"/>
+                            <constraint firstItem="lJg-4E-CSt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="jNc-3e-0rd"/>
+                            <constraint firstItem="9dX-5M-Fkt" firstAttribute="top" secondItem="ZMD-ir-b8v" secondAttribute="bottom" constant="20" id="mQW-TN-YJ6"/>
+                            <constraint firstItem="gdr-DD-S9S" firstAttribute="top" secondItem="CwH-Xy-BcR" secondAttribute="bottom" constant="41" id="q7m-j5-R9T"/>
+                            <constraint firstItem="6dR-U8-DYA" firstAttribute="leading" secondItem="nhs-Mp-JmL" secondAttribute="trailing" constant="25" id="r7C-9i-vsK"/>
+                            <constraint firstItem="nhs-Mp-JmL" firstAttribute="centerY" secondItem="6dR-U8-DYA" secondAttribute="centerY" id="rSX-fL-61d"/>
+                            <constraint firstItem="9tI-pf-tqc" firstAttribute="leading" secondItem="8q5-eS-sav" secondAttribute="leading" id="rfJ-Av-vYm"/>
+                            <constraint firstItem="de2-Bs-ik6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sDw-Fc-Cvr"/>
+                            <constraint firstItem="1Qy-v2-raL" firstAttribute="top" secondItem="6dR-U8-DYA" secondAttribute="bottom" constant="31" id="sa8-SJ-lq7"/>
+                            <constraint firstItem="8q5-eS-sav" firstAttribute="baseline" secondItem="J1e-0X-A68" secondAttribute="baseline" id="v9M-Fe-vZn"/>
+                            <constraint firstItem="CwH-Xy-BcR" firstAttribute="top" secondItem="8q5-eS-sav" secondAttribute="bottom" constant="53" id="wYy-Ei-HbH"/>
+                            <constraint firstItem="CwH-Xy-BcR" firstAttribute="baseline" secondItem="3Mo-Ok-gWZ" secondAttribute="baseline" id="ybk-l6-Mwh"/>
+                            <constraint firstItem="8q5-eS-sav" firstAttribute="leading" secondItem="gdr-DD-S9S" secondAttribute="leading" id="zR0-5U-Zjb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityPicker" destination="ZMD-ir-b8v" id="zWB-gx-IG6"/>
+                        <outlet property="energyConsumedLBL" destination="1Qy-v2-raL" id="5sC-3Q-tfH"/>
+                        <outlet property="exerciseTimeTF" destination="6dR-U8-DYA" id="i2A-Gc-USc"/>
+                        <outlet property="timeCountLBL" destination="J1e-0X-A68" id="PaW-aX-61T"/>
+                        <outlet property="weightTF" destination="9dX-5M-Fkt" id="k6y-9D-3Xu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="133.25892857142856"/>
+        </scene>
+    </scenes>
+</document>
